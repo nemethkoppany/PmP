@@ -1,0 +1,14 @@
+C:\Users\nemet\Desktop\Labor1\Labor1\bin\Debug\net8.0\Labor1.exe
+C:\Users\nemet\Desktop\Labor1\Labor1\bin\Debug\net8.0\Labor1.deps.json
+C:\Users\nemet\Desktop\Labor1\Labor1\bin\Debug\net8.0\Labor1.runtimeconfig.json
+C:\Users\nemet\Desktop\Labor1\Labor1\bin\Debug\net8.0\Labor1.dll
+C:\Users\nemet\Desktop\Labor1\Labor1\bin\Debug\net8.0\Labor1.pdb
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.AssemblyInfoInputs.cache
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.AssemblyInfo.cs
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.csproj.CoreCompileInputs.cache
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.dll
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\refint\Labor1.dll
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.pdb
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\Labor1.genruntimeconfig.cache
+C:\Users\nemet\Desktop\Labor1\Labor1\obj\Debug\net8.0\ref\Labor1.dll
