@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nemet\\Desktop\\Labor1\\",
+  "WorkspaceRootPath": "C:\\Users\\nemet\\Documents\\PmP\\1.labor\\Labor1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DCAB93D-E486-4E52-903A-511705CC075A}|Labor1\\Labor1.csproj|c:\\users\\nemet\\desktop\\labor1\\labor1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DCAB93D-E486-4E52-903A-511705CC075A}|Labor1\\Labor1.csproj|c:\\users\\nemet\\documents\\pmp\\1.labor\\labor1\\labor1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DCAB93D-E486-4E52-903A-511705CC075A}|Labor1\\Labor1.csproj|solutionrelative:labor1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nemet\\Desktop\\Labor1\\Labor1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\1.labor\\Labor1\\Labor1\\Program.cs",
               "RelativeDocumentMoniker": "Labor1\\Program.cs",
-              "ToolTip": "C:\\Users\\nemet\\Desktop\\Labor1\\Labor1\\Program.cs",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\1.labor\\Labor1\\Labor1\\Program.cs",
               "RelativeToolTip": "Labor1\\Program.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAgwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

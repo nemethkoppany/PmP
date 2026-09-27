@@ -140,22 +140,30 @@ namespace ConsoleApp1
             //    Console.WriteLine($"{N} összetett szám");
             //}
 
-            //7.(Valamiért kétszer kell beírni a számot)
+            //7.
             //Console.WriteLine("Adj meg egy pozitív egész számot!");
-            //int N = int.Parse(Console.ReadLine());
 
-            //if(!int.TryParse(Console.ReadLine(), out N) || N < 0)
+            //if (!int.TryParse(Console.ReadLine(), out int N) || N < 0)
             //{
-            //    Console.WriteLine("érvényes számot adj meg");
+            //    Console.WriteLine("Érvényes számot adj meg");
             //    return;
             //}
+
             //long factorial = 1;
             //string factorialExpression = "";
 
-            //for(int i = 1; i <= N; i++)
+            //for (int i = 1; i <= N; i++)
             //{
             //    factorial *= i;
-            //    if(i > 1)
+            //    factorialExpression += i + (i < N ? " * " : " = ");
+            //}
+
+            //Console.WriteLine($"{factorialExpression}{factorial}");
+
+            //for (int i = 1; i <= N; i++)
+            //{
+            //    factorial *= i;
+            //    if (i > 1)
             //    {
             //        factorialExpression += "x";
             //    }
@@ -183,14 +191,89 @@ namespace ConsoleApp1
             ////Console.Beep();
             //Console.ResetColor();
 
-            //11.
+            ////11.
             int credits = 100;
             int bet = 1;
             Random random = new Random();
             ConsoleKey key;
+
             Console.WriteLine("Félkarú rabló");
-            Console.WriteLine("Space: pörgetés, fel/le nyilak: tét növelés6csökkentés, Esc: kilépés");
+            Console.WriteLine("Space: pörgetés, fel/le nyilak: tét növelés/csökkentés, Esc: kilépés");
             Console.WriteLine($"Elérhető kreditek: {credits}");
+            Console.WriteLine($"Tét: {bet}");
+
+            do
+            {
+                key = Console.ReadKey(true).Key;
+
+                if (key == ConsoleKey.UpArrow)
+                {
+                    if (bet < credits)
+                    {
+                        bet++;
+                        Console.WriteLine($"Tét: {bet}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("A tét nem lehet nagyobb, mint az elérhető kredit!");
+                    }
+                }
+                else if (key == ConsoleKey.DownArrow)
+                {
+                    if (bet > 1)
+                    {
+                        bet--;
+                        Console.WriteLine($"Tét: {bet}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("A tét nem lehet 1-nél kisebb!");
+                    }
+                }
+                else if (key == ConsoleKey.Spacebar)
+                {
+                    int szam1 = random.Next(0, 10);
+                    int szam2 = random.Next(0, 10);
+                    int szam3 = random.Next(0, 10);
+
+                    Console.WriteLine($"Pörgetés: {szam1} {szam2} {szam3}");
+
+                    credits -= bet;
+
+                    if (szam1 == szam2 && szam2 == szam3)
+                    {
+                        int nyeremeny = bet * 50;
+                        credits += nyeremeny;
+                        Console.WriteLine($"Három egyforma! Nyeremény: {nyeremeny} kredit");
+                    }
+                    else if (szam1 == szam2 || szam1 == szam3 || szam2 == szam3)
+                    {
+                        int nyeremeny = bet * 10;
+                        credits += nyeremeny;
+                        Console.WriteLine($"Két egyforma! Nyeremény: {nyeremeny} kredit");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Nincs nyeremény.");
+                    }
+
+                    Console.WriteLine($"Elérhető kreditek: {credits}");
+
+                    if (credits <= 0)
+                    {
+                        Console.WriteLine("Elfogyott a kredited! Játék vége.");
+                        break;
+                    }
+
+                    if (bet > credits)
+                    {
+                        bet = credits;
+                    }
+                }
+
+            } while (key != ConsoleKey.Escape);
+
+            Console.WriteLine("Köszönjük a játékot!");
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\bin\Debug\net8.0\Otthoni_feladatok.exe
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\bin\Debug\net8.0\Otthoni_feladatok.deps.json
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\bin\Debug\net8.0\Otthoni_feladatok.runtimeconfig.json
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\bin\Debug\net8.0\Otthoni_feladatok.dll
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\bin\Debug\net8.0\Otthoni_feladatok.pdb
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.AssemblyInfoInputs.cache
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.AssemblyInfo.cs
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.csproj.CoreCompileInputs.cache
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.sourcelink.json
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.dll
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\refint\Otthoni_feladatok.dll
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.pdb
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\Otthoni_feladatok.genruntimeconfig.cache
+C:\Users\nemet\Documents\PmP\Labor2\Otthoni_feladatok\obj\Debug\net8.0\ref\Otthoni_feladatok.dll

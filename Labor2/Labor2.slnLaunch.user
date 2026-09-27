@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Otthoni_feladatok\\Otthoni_feladatok.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
