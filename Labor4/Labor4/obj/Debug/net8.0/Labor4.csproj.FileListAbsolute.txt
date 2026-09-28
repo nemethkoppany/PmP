@@ -1,0 +1,14 @@
+C:\Users\hallgato\Desktop\Labor4\Labor4\bin\Debug\net8.0\Labor4.exe
+C:\Users\hallgato\Desktop\Labor4\Labor4\bin\Debug\net8.0\Labor4.deps.json
+C:\Users\hallgato\Desktop\Labor4\Labor4\bin\Debug\net8.0\Labor4.runtimeconfig.json
+C:\Users\hallgato\Desktop\Labor4\Labor4\bin\Debug\net8.0\Labor4.dll
+C:\Users\hallgato\Desktop\Labor4\Labor4\bin\Debug\net8.0\Labor4.pdb
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.AssemblyInfoInputs.cache
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.AssemblyInfo.cs
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.csproj.CoreCompileInputs.cache
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.dll
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\refint\Labor4.dll
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.pdb
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\Labor4.genruntimeconfig.cache
+C:\Users\hallgato\Desktop\Labor4\Labor4\obj\Debug\net8.0\ref\Labor4.dll
