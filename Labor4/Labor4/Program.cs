@@ -46,7 +46,7 @@
             //    else if (char.IsDigit(c))
             //    {
             //        szamok += c;
-                    
+
             //    }
 
             //    if(betuk.Length == 4 && szamok.Length == 3)
@@ -61,42 +61,74 @@
             //}
 
             //6.
-            Random rnd = new Random();
+            //Random rnd = new Random();
 
-            string neptunKOd = "asd123".ToUpper();
+            //string neptunKOd = "asd123".ToUpper();
 
-            int probalkozasok = 0;
-            string generaltNeptunKod = "";
+            //int probalkozasok = 0;
+            //string generaltNeptunKod = "";
 
-            do
+            //do
+            //{
+            //    char[] neptunKod = new char[6];
+            //    string betuk = "ABCDEFGHIJKLMNOPQRSRUVWXYZ";
+            //    string szamok = "0123456789";
+            //    neptunKod[0] = betuk[rnd.Next(betuk.Length)];
+
+            //    for(int i = 1; i < 6; i++)
+            //    {
+            //        if(rnd.Next(2) == 0)
+            //        {
+            //            neptunKod[i] = betuk[rnd.Next(betuk.Length)];
+            //        }
+            //        else
+            //        {
+            //            neptunKod[i] = szamok[rnd.Next(szamok.Length)];
+            //        }
+            //    }
+
+            //    probalkozasok++;
+
+            //    if (probalkozasok % 1000000 == 0)
+            //    {
+            //        Console.WriteLine($"eddigi probálkozások: {probalkozasok}");
+            //    }
+
+
+            //}
+            //while (generaltNeptunKod != neptunKOd);
+
+            //8.
+            string minta = "Vincent;Vega;Vince\nMarsellus;Wallace;Big Man\nWinston;Wolf;The Wolf";
+
+            string[] splittek = minta.Split("\n");
+
+            int sorokszama = splittek.Length;
+            int oszlopokSzama = splittek[0].Split(";").Length;
+            string[,] tomb = new string[sorokszama, oszlopokSzama];
+
+            for (int i = 0; i < sorokszama; i++)
             {
-                char[] neptunKod = new char[6];
-                string betuk = "ABCDEFGHIJKLMNOPQRSRUVWXYZ";
-                string szamok = "0123456789";
-                neptunKod[0] = betuk[rnd.Next(betuk.Length)];
+                string[] oszlopok = splittek[i].Split(";");
 
-                for(int i = 1; i < 6; i++)
+                for(int j = 0; j < oszlopokSzama; j++)
                 {
-                    if(rnd.Next(2) == 0)
-                    {
-                        neptunKod[i] = betuk[rnd.Next(betuk.Length)];
-                    }
-                    else
-                    {
-                        neptunKod[i] = szamok[rnd.Next(szamok.Length)];
-                    }
+                    tomb[i,j] = oszlopok[j];
                 }
-
-                probalkozasok++;
-
-                if (probalkozasok % 1000000 == 0)
-                {
-                    Console.WriteLine($"eddigi probálkozások: {probalkozasok}");
-                }
-
-               
             }
-            while (generaltNeptunKod != neptunKOd);
+
+            for(int i = 0;i < sorokszama; i++)
+            {
+               for(int j = 0;j < oszlopokSzama; j++)
+                {
+                    Console.Write(tomb[i,j]);
+                    if(j <oszlopokSzama - 1)
+                    {
+                        Console.Write(" ");
+                    }
+                }
+               Console.WriteLine();
+            }
 
             
 

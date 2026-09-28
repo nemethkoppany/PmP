@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hallgato\\Desktop\\Labor4\\",
+  "WorkspaceRootPath": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F34C8CF-1ABA-49AF-9B72-3A6DA540802C}|Labor4\\Labor4.csproj|c:\\users\\hallgato\\desktop\\labor4\\labor4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F34C8CF-1ABA-49AF-9B72-3A6DA540802C}|Labor4\\Labor4.csproj|c:\\users\\hallgato\\desktop\\pmp\\labor4\\labor4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F34C8CF-1ABA-49AF-9B72-3A6DA540802C}|Labor4\\Labor4.csproj|solutionrelative:labor4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hallgato\\Desktop\\Labor4\\Labor4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor4\\Labor4\\Program.cs",
               "RelativeDocumentMoniker": "Labor4\\Program.cs",
-              "ToolTip": "C:\\Users\\hallgato\\Desktop\\Labor4\\Labor4\\Program.cs*",
-              "RelativeToolTip": "Labor4\\Program.cs*",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFsAAAAoAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor4\\Labor4\\Program.cs",
+              "RelativeToolTip": "Labor4\\Program.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwIEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T14:14:59.751Z",
               "EditorCaption": ""
