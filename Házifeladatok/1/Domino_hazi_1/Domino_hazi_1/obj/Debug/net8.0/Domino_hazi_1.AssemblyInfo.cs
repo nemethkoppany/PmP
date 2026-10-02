@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Domino_hazi_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d9355827a2d90ad3cad6a205318f5810fde8aff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f583548c49c245ac09347a297384c214fc992c2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Domino_hazi_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Domino_hazi_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

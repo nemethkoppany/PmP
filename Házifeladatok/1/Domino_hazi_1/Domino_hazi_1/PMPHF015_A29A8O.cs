@@ -10,20 +10,38 @@ namespace Domino_hazi_1
             //0 ≤A, B ≤6
 
             int N = int.Parse(Console.ReadLine());
-            List<string> dominok = new List<string>();
+            int[] fok = new int[7];
+            bool[,] van = new bool[7, 7];
+
 
             for (int i = 0; i < N; i++)
             {
              
                 string domino = Console.ReadLine();
-                dominok.Add(domino);
 
+                string[] domino_elemek = domino.Split("|");
+                int a = int.Parse(domino_elemek[0]);
+                int b = int.Parse(domino_elemek[1]);
+
+                fok[a]++;
+                fok[b]++;
+
+                van[a,b] = true;
+                van[b,a] = true;
             }
 
-            foreach (string domino in dominok)
+            int paratlanokDB = 0;
+            for(int i = 0;i < fok.Length; i++)
             {
-                Console.WriteLine(domino);
+                if (fok[i] % 2 != 0)
+                {
+                    paratlanokDB++;
+                }
             }
+
+            
+
+
         }
     }
 }
