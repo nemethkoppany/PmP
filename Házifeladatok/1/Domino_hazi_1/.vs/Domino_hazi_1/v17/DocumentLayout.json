@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nemet\\Documents\\PmP\\H\u00E1zifeladatok\\1\\Domino_hazi_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89E9EBD4-FE6A-4DEC-A720-571D260DC3C7}|Domino_hazi_1\\Domino_hazi_1.csproj|c:\\users\\nemet\\documents\\pmp\\h\u00E1zifeladatok\\1\\domino_hazi_1\\domino_hazi_1\\pmphf015_a29a8o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E9EBD4-FE6A-4DEC-A720-571D260DC3C7}|Domino_hazi_1\\Domino_hazi_1.csproj|solutionrelative:domino_hazi_1\\pmphf015_a29a8o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PMPHF015_A29A8O.cs",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\H\u00E1zifeladatok\\1\\Domino_hazi_1\\Domino_hazi_1\\PMPHF015_A29A8O.cs",
+              "RelativeDocumentMoniker": "Domino_hazi_1\\PMPHF015_A29A8O.cs",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\H\u00E1zifeladatok\\1\\Domino_hazi_1\\Domino_hazi_1\\PMPHF015_A29A8O.cs",
+              "RelativeToolTip": "Domino_hazi_1\\PMPHF015_A29A8O.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T11:26:34.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
