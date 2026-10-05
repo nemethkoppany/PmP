@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hallgato\\Desktop\\Labor5\\",
+  "WorkspaceRootPath": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\hallgato\\desktop\\labor5\\labor5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\hallgato\\desktop\\pmp\\labor5\\labor5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|solutionrelative:labor5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hallgato\\Desktop\\Labor5\\Labor5\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor5\\Labor5\\Program.cs",
               "RelativeDocumentMoniker": "Labor5\\Program.cs",
-              "ToolTip": "C:\\Users\\hallgato\\Desktop\\Labor5\\Labor5\\Program.cs",
+              "ToolTip": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor5\\Labor5\\Program.cs",
               "RelativeToolTip": "Labor5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T14:15:14.445Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

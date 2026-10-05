@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //1.
-
+            //4 feladat van összesen
         }
     }
 }
