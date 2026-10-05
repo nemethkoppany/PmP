@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "STvceZjNz+w=",
+  "dgSpecHash": "SOeTed6/9O8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nemet\\Documents\\PmP\\Labor2\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/nightknight/Documents/PmP/Labor2/ConsoleApp1/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/home/nightknight/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.31/microsoft.netcore.app.host.linux-x64.8.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
