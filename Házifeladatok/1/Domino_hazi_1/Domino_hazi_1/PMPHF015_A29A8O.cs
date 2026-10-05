@@ -39,7 +39,14 @@ namespace Domino_hazi_1
                 }
             }
 
-            
+            if(paratlanokDB == 0 || paratlanokDB == 2)
+            {
+                Console.WriteLine("Y");
+            }
+            else
+            {
+                Console.WriteLine("N");
+            }
 
 
         }
