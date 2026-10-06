@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor4\\",
+  "WorkspaceRootPath": "C:\\Users\\nemet\\Documents\\PmP\\Labor4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F34C8CF-1ABA-49AF-9B72-3A6DA540802C}|Labor4\\Labor4.csproj|c:\\users\\hallgato\\desktop\\pmp\\labor4\\labor4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F34C8CF-1ABA-49AF-9B72-3A6DA540802C}|Labor4\\Labor4.csproj|c:\\users\\nemet\\documents\\pmp\\labor4\\labor4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F34C8CF-1ABA-49AF-9B72-3A6DA540802C}|Labor4\\Labor4.csproj|solutionrelative:labor4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -24,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor4\\Labor4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\Labor4\\Labor4\\Program.cs",
               "RelativeDocumentMoniker": "Labor4\\Program.cs",
-              "ToolTip": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor4\\Labor4\\Program.cs",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\Labor4\\Labor4\\Program.cs",
               "RelativeToolTip": "Labor4\\Program.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAgwIEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
