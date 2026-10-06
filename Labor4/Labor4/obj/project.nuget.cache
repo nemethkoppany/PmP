@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WyKWKgfBITw=",
+  "dgSpecHash": "6PrjFXFQrw8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nemet\\Documents\\PmP\\Labor4\\Labor4\\Labor4.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/nightknight/Documents/PmP/Labor4/Labor4/Labor4.csproj",
+  "expectedPackageFiles": [
+    "/home/nightknight/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.31/microsoft.netcore.app.host.linux-x64.8.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
