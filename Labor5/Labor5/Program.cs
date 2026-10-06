@@ -6,6 +6,7 @@
         {
             //1.
             //4 feladat van összesen
+            Console.WriteLine("Hello World!");
         }
     }
 }
