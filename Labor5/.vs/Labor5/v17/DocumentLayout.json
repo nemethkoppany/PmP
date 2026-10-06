@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor5\\",
+  "WorkspaceRootPath": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\hallgato\\desktop\\pmp\\labor5\\labor5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\nemet\\documents\\pmp\\labor5\\labor5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|solutionrelative:labor5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\nemet\\documents\\pmp\\labor5\\labor5\\nhanes_1999-2018.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|solutionrelative:labor5\\nhanes_1999-2018.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\nemet\\documents\\pmp\\labor5\\labor5\\2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|solutionrelative:labor5\\2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|c:\\users\\nemet\\documents\\pmp\\labor5\\labor5\\1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1C8F870E-4480-404B-8011-F25201F63041}|Labor5\\Labor5.csproj|solutionrelative:labor5\\1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NHANES_1999-2018.csv",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\NHANES_1999-2018.csv",
+              "RelativeDocumentMoniker": "Labor5\\NHANES_1999-2018.csv",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\NHANES_1999-2018.csv",
+              "RelativeToolTip": "Labor5\\NHANES_1999-2018.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-10-06T21:11:34.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "2.txt",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\2.txt",
+              "RelativeDocumentMoniker": "Labor5\\2.txt",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\2.txt",
+              "RelativeToolTip": "Labor5\\2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-06T20:43:32.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "1.txt",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\1.txt",
+              "RelativeDocumentMoniker": "Labor5\\1.txt",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\1.txt",
+              "RelativeToolTip": "Labor5\\1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-06T19:35:34.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor5\\Labor5\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\Program.cs",
               "RelativeDocumentMoniker": "Labor5\\Program.cs",
-              "ToolTip": "C:\\Users\\hallgato\\Desktop\\PmP\\Labor5\\Labor5\\Program.cs",
+              "ToolTip": "C:\\Users\\nemet\\Documents\\PmP\\Labor5\\Labor5\\Program.cs",
               "RelativeToolTip": "Labor5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAYBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T14:15:14.445Z",
               "EditorCaption": ""
