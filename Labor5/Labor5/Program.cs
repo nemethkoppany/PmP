@@ -7,10 +7,8 @@ namespace Labor5
         static void Main(string[] args)
         {
             //1.
-<<<<<<< HEAD
             //4 feladat van összesen
-            Console.WriteLine("Hello World!");
-=======
+
             //string filename = "1.txt";
 
             //if (!File.Exists(filename))
@@ -273,7 +271,6 @@ namespace Labor5
             ////}
             ////double atlag = (double)tulsuly_eletkor / (double)tulsulyos_db;
             ////Console.WriteLine($"A túlsúlyos emberek átlag életkora: {atlag:F2}");
->>>>>>> eb54c9f58e4622625264b1ab383409f27c13e62c
         }
     }
 }
