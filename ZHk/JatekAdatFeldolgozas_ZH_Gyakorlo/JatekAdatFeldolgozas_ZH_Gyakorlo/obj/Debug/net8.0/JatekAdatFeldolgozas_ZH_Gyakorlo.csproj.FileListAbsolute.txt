@@ -1,0 +1,17 @@
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.exe
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\games_dataset.csv
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\genre.txt
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.deps.json
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.runtimeconfig.json
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.dll
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\bin\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.pdb
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.AssemblyInfoInputs.cache
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.AssemblyInfo.cs
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.csproj.CoreCompileInputs.cache
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.sourcelink.json
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.dll
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\refint\JatekAdatFeldolgozas_ZH_Gyakorlo.dll
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.pdb
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\JatekAdatFeldolgozas_ZH_Gyakorlo.genruntimeconfig.cache
+C:\Users\nemet\Documents\PmP\ZHk\JatekAdatFeldolgozas_ZH_Gyakorlo\JatekAdatFeldolgozas_ZH_Gyakorlo\obj\Debug\net8.0\ref\JatekAdatFeldolgozas_ZH_Gyakorlo.dll
