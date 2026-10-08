@@ -61,12 +61,57 @@ namespace JatekAdatFeldolgozas_ZH_Gyakorlo
                 games.Add(g);
             }
 
-            foreach (Game g in games)
+            //3.
+            Console.WriteLine("Add meg az egyik kiadó nevét!");
+            string kiado = Console.ReadLine().Trim();
+
+                int kiado_jatekai = 0;
+
+            foreach (Game game in games)
             {
-                Console.WriteLine($"{g.Title} | {g.Genre} | {g.Publisher} | {g.ReleaseDate} | {g.OriginalReleaseDate}");
+                if(game.Publisher.ToLower() == kiado.ToLower())
+                {
+                    kiado_jatekai++;
+                }
+            }
+            Console.WriteLine($"A {kiado} kiadónak összesen {kiado_jatekai} darab játéka van");
+
+
+            //4.
+            foreach(Game game in games)
+            {
+                if(game.ReleaseDate.Substring(0,4) == game.OriginalReleaseDate.Substring(0,4))
+                {
+                    Console.WriteLine($"{game.Title} | {game.Genre} | {game.ReleaseDate.Substring(0,4)}");
+                }
             }
 
+
+            //5.
+            int[] Counts = new int[genres.Count];//Olyan hosszú ahány műfaj van
+
+            foreach(Game game in games)
+            {
+                int index = genres.IndexOf(game.Genre);//Megadja, hogy az aktuális műfaj hanyas indexen van
+                Counts[index]++;//Az az indexet növeljük egyel
+            }
+            for(int i = 0; i < genres.Count; i++)
+            {
+                Console.WriteLine($"{genres[i]}: {Counts[i]}");
+            }
+
+
+
+
+            // foreach (Game g in games)
+            // {
+            //     Console.WriteLine($"{g.Title} | {g.Genre} | {g.Publisher} | {g.ReleaseDate} | {g.OriginalReleaseDate}");
+            // }
+
             
+
+            
+
         }
     }
 
