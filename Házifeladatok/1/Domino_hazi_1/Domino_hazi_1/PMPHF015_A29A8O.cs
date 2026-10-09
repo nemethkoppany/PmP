@@ -5,10 +5,6 @@ namespace Domino_hazi_1
     {
         static void Main(string[] args)
         {
-
-            //1 ≤N ≤100
-            //0 ≤A, B ≤6
-
             int N = int.Parse(Console.ReadLine());
             int[] fok = new int[7];
             bool[,] van = new bool[7, 7];
@@ -39,7 +35,43 @@ namespace Domino_hazi_1
                 }
             }
 
-            if(paratlanokDB == 0 || paratlanokDB == 2)
+            bool[] meglatogatott = new bool[7];
+
+            int kezdo = -1;
+
+            for(int i = 0; i < 7; i++)
+            {
+                if(kezdo == -1 && fok[i] > 0)
+                {
+                    kezdo = i;
+                }
+            }
+            meglatogatott[kezdo] = true;
+
+            for(int kor = 0; kor < 7; kor++)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    for (int j = 0; j < 7; j++)
+                    {
+                        if(meglatogatott[i] && van[i, j])
+                        {
+                            meglatogatott[j] = true;
+                        }
+                    }
+                }
+            }
+
+            bool osszefuggo = true;
+            for (int i = 0; i < 7; i++)
+            {
+                if (fok[i] > 0 && !meglatogatott[i])
+                {
+                    osszefuggo = false;
+                }
+            }
+
+            if((paratlanokDB == 0 || paratlanokDB == 2)&&osszefuggo)
             {
                 Console.WriteLine("Y");
             }
