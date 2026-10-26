@@ -39,32 +39,29 @@ namespace Labor8
             return idx < count;
         }
 
-        public bool IsAvailable(Player player) 
+        public bool IsAvailable(Player candidate)
+{
+    int[] posCount = new int[Enum.GetNames(typeof(Position)).Length];
+
+    
+    foreach (Player p in players)
+    {
+        if (p != null)
         {
-            int[] posCount = new int[Enum.GetNames(typeof(Position)).Length];
-
-            foreach(Player palyer in players)
-            {
-                if(player != null)
-                {
-                    posCount[(int)player.Pos]++;
-                }
-
-                switch (player.Pos)
-                {
-                    case Position.Gaolkeeper: return posCount[(int)player.Pos] < 1;
-                        
-                    case Position.Forward: return posCount[(int)player.Pos] < 1;
-                        
-                    case Position.Winger: return posCount[(int)player.Pos] < 2;
-                        
-                    case Position.Defender: return posCount[(int)player.Pos] < 1;
-
-                    default: return false; 
-                }
-            }
+            posCount[(int)p.Pos]++;
         }
-        public void Include(Player player)
+    }
+
+    
+    switch (candidate.Pos)
+    {
+        case Position.Gaolkeeper: return posCount[(int)candidate.Pos] < 1;
+        case Position.Forward:    return posCount[(int)candidate.Pos] < 1;
+        case Position.Winger:     return posCount[(int)candidate.Pos] < 2;
+        case Position.Defender:   return posCount[(int)candidate.Pos] < 1;
+        default:                  return false;
+    }
+}        public void Include(Player player)
         {
             if (IsFull || IsIncluded(player) || !IsAvailable(player)) return;
             int idx = 0;
