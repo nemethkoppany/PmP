@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace Labor9
 {
+    enum ItemType
+    {
+        Ammo,
+        BFGCell, 
+        Door,
+        LevelExit,
+        Medikit,
+        ToxicWaste,
+        Wall
+    }
     internal class GameItem
     {
         public Position Position;
