@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheConsoleSlayer
 {
-    class ConsoleSprite
+    public class ConsoleSprite
     {
         public ConsoleColor Background { get; private set; }
         public ConsoleColor Foreground { get; private set; }

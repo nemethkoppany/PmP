@@ -21,7 +21,7 @@ namespace TheConsoleSlayer
             player = new Player(0, 0);
             // Kesobb kell
             // A játékelemek inicializálása is a 2. fejezet része.
-            List<GameItem> Items = new List<GameItem>();
+            Items = new List<GameItem>();
             
         }
 
@@ -88,16 +88,16 @@ namespace TheConsoleSlayer
                     // Eg.:
                     // Console.WriteLine($"Key -> RightArrow ");
                     case ConsoleKey.RightArrow:
-                        player.Position.X++;
+                        Move(player, Position.Add(player.Position, new Position(1, 0)));
                         break;
                     case ConsoleKey.LeftArrow:
-                        player.Position.X--;
+                        Move(player, Position.Add(player.Position, new Position(-1, 0)));
                         break;
                     case ConsoleKey.UpArrow:
-                        player.Position.Y--;
+                        Move(player, Position.Add(player.Position,new Position(0, -1)));
                         break;
                     case ConsoleKey.DownArrow:
-                        player.Position.Y++;
+                        Move(player, Position.Add(player.Position, new Position(0, 1)));
                         break;
                     // Kesobb kell
                     // A D billentyűs interakció a 2. fejezet része.
@@ -147,10 +147,18 @@ namespace TheConsoleSlayer
 
             foreach(GameItem item in GetGameItemsWithinDistance(pos, 0))
             {
-                item.FillingRatio += sum;
+                sum += item.FillingRatio;
             }
 
             return sum;
+        }
+
+        private void Move(Player player, Position pos)
+        {
+            if(GetTotalFillingRatio(pos) + player.FillingRatio <= 1.0)
+            {
+                player.Position = pos;
+            }
         }
     }
 }
