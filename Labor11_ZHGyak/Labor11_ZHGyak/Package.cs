@@ -25,8 +25,8 @@ namespace Labor11_ZHGyak
     internal class Package
     {
         public int id { get;}
-        public ServiceLevel level { get; }
-        public int fee { get;  }
+        public ServiceLevel level { get; set; }
+        public int fee { get; set; }
         public DateTime sendDate { get; }
         public DateTime TrackerUpdateDate { get;}
         public DestinationCountry country { get; }
