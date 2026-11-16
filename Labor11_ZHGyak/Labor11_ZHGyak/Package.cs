@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Labor11_ZHGyak
 {
@@ -13,58 +10,57 @@ namespace Labor11_ZHGyak
         Slovakia = 9, Sweden = 10
     }
 
-    public enum ServiceLevel
-    {
-        Economy, Express, Standard
-    }
+    public enum ServiceLevel { Economy, Express, Standard }
 
-    public enum DeliveryMethod
-    {
-        Courier, Locker, PickupPoint, PostOffice
-    }
+    public enum DeliveryMethod { Courier, Locker, PickupPoint, PostOffice }
+
     internal class Package
     {
-        public int id { get;}
-        public ServiceLevel level { get; set; }
-        public int fee { get; set; }
-        public DateTime sendDate { get; }
-        public DateTime TrackerUpdateDate { get;}
-        public DestinationCountry country { get; }
-        public int weight { get; }
-        public DeliveryMethod method { get; }
+        private int id;
+        private ServiceLevel serviceLevel;
+        private int shippingFee;
+        private DateTime shippedAt;
+        private DateTime lastUpdateAt;
+        private DestinationCountry country;
+        private int weightKg;
+        private DeliveryMethod deliveryMethod;
 
-        public Package(string characterString)
+        public int Id { get { return id; } }
+        public ServiceLevel ServiceLevel { get { return serviceLevel; } }
+        public int ShippingFee { get { return shippingFee; } }
+        public DateTime ShippedAt { get { return shippedAt; } }
+        public DateTime LastUpdateAt { get { return lastUpdateAt; } }
+        public DestinationCountry Country { get { return country; } }
+        public int WeightKg { get { return weightKg; } }
+        public DeliveryMethod DeliveryMethod { get { return deliveryMethod; } }
+
+        public Package(string line)
         {
-            this.id = id;
-            this.level = level;
-            this.fee = fee; 
-            this.sendDate = sendDate;
-            this.TrackerUpdateDate = TrackerUpdateDate;
-            this.country = country;
-            this.weight = weight;
-            this.method = method;
-            characterString = (id, level,  fee, sendDate, TrackerUpdateDate, country, weight, method).ToString();
+            string[] parts = line.Split(',');
+            id = int.Parse(parts[0]);
+            serviceLevel = (ServiceLevel)Enum.Parse(typeof(ServiceLevel), parts[1]);
+            shippingFee = int.Parse(parts[2]);
+            shippedAt = DateTime.Parse(parts[3]);
+            lastUpdateAt = DateTime.Parse(parts[4]);
+            country = (DestinationCountry)Enum.Parse(typeof(DestinationCountry), parts[5]);
+            weightKg = int.Parse(parts[6]);
+            deliveryMethod = (DeliveryMethod)Enum.Parse(typeof(DeliveryMethod), parts[7]);
         }
 
         public int DaysInTransit()
         {
-            int transitDays = (DateTime.Today - sendDate.Date).Days;
-            return transitDays;
+            return (DateTime.Today - shippedAt.Date).Days;
         }
 
         public int DaysSinceLastUpdate()
         {
-            int updateDate = (DateTime.Today- TrackerUpdateDate.Date).Days;
-            return updateDate;
+            return (DateTime.Today - lastUpdateAt.Date).Days;
         }
 
         public string DataAsText()
         {
-            return ($"ID:{this.id} ({this.country},{this.level},{this.method}). Transit:{DaysInTransit()} days, last update: {DaysSinceLastUpdate()} days");
+            return $"ID: {id} ({country}, {serviceLevel}, {deliveryMethod}). " +
+                   $"Transit: {DaysInTransit()} days, last update: {DaysSinceLastUpdate()} days.";
         }
-        // Az InvariantCulture miatt a feldolgozás nem függ attól,
-        // hogy a számítógépen magyar vagy más területi beállítás van.
-        //variable = DateTime.ParseExact(
-        //data, "yyyy-MM-dd", CultureInfo.InvariantCulture);
     }
 }
