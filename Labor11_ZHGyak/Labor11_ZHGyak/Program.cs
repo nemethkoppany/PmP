@@ -1,10 +1,14 @@
-﻿namespace Labor11_ZHGyak
+﻿using System.Net.Sockets;
+using System.Reflection.Metadata.Ecma335;
+
+namespace Labor11_ZHGyak
 {
-    internal class Program
+    public class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
         }
     }
 }
