@@ -15,7 +15,8 @@
     {
         static void Main(string[] args)
         {
-            
+            FleetHandler handler = new FleetHandler("weyland-yutani.csv");
+            handler.GenerateReport();
         }
     }
 }

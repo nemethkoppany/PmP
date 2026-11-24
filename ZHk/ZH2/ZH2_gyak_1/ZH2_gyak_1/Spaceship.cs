@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -9,22 +10,31 @@ namespace ZH2_gyak_1
 {
     internal class Spaceship
     {
-        string Name { get; }
-        ShipClassType ShipClassType { get; }
-        int Crew_number { get; }
-        CrewStatusType CrewStatusType { get; }
-        int CargoWeight { get; }
-        DateTime LastMessage { get; }
+        public string Name { get { return name; } }
+        public ShipClassType ShipClassType { get { return shipClassType; } }
+        public int Crew_number { get { return crew_number; } }
+        public CrewStatusType CrewStatusType { get { return crewStatusType; } }
+        public int CargoWeight { get { return cargoweight; } }
+        public DateTime LastMessage { get { return lastmessage; } }
+
+        private string name;
+        private ShipClassType shipClassType;
+        private int crew_number;
+        private CrewStatusType crewStatusType;
+        private int cargoweight;
+        private DateTime lastmessage;
 
         public Spaceship(string output)
         {
             string[] output_parts = output.Split(";");
-            Name = output_parts[0];
-            ShipClassType = (ShipClassType)Enum.Parse(typeof(ShipClassType), output_parts[1]);
-            Crew_number = int.Parse(output_parts[2]);
-            CrewStatusType = (CrewStatusType)Enum.Parse(typeof(CrewStatusType), output_parts[3]);
-            CargoWeight = int.Parse(output_parts[4]);
-            LastMessage = DateTime.Parse(output_parts[5]);
+            name = output_parts[0];
+            shipClassType= (ShipClassType)Enum.Parse(typeof(ShipClassType), output_parts[1]);
+            crew_number = int.Parse(output_parts[2]);
+            crewStatusType= (CrewStatusType)Enum.Parse(typeof(CrewStatusType), output_parts[3]);
+            cargoweight = int.Parse(output_parts[4]);
+            lastmessage = DateTime.Parse(output_parts[5]);
+
+            
 
         }
 
@@ -53,7 +63,7 @@ namespace ZH2_gyak_1
 
         public string GetStatusReport(DateTime date)
         {
-            return ($"=== {ToString()} === \n Crew:{Crew_number} ({CrewStatusType}) \n Last message: {DaysSinceLastMessage(date)} days \n Rescue needed: {(NeedsRescue(date)?"Yes":"No")}");
+            return ($"=== {ToString()} === \n Crew: {Crew_number} ({CrewStatusType}) \n Last message: {DaysSinceLastMessage(date)} days \n Rescue needed: {(NeedsRescue(date)?"Yes":"No")}");
         }
     }
 }
